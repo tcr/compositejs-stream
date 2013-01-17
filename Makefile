@@ -1,7 +1,7 @@
 
-build: components src/EventEmitter.js
+build: components src/Stream.js
 	@component build --dev
-	@component build --standalone EventEmitter -o lib -n EventEmitter
+	@component build --standalone Stream -o lib -n Stream
 
 components: component.json
 	@component install --dev

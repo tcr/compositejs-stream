@@ -1,13 +1,13 @@
 {
-  "name": "composite-eventemitter",
-  "repo": "tcr/composite-eventemitter",
-  "description": "API compatible port of Node.js' EventEmitter.",
+  "name": "composite-stream",
+  "repo": "tcr/composite-stream",
+  "description": "API compatible port of Node.js' Stream.",
   "version": "0.0.1",
-  "keywords": ["event", "emitter", "eventemitter", "node", "composite", "component"],
+  "keywords": ["event", "emitter", "eventemitter", "node", "composite", "component", "stream"],
   "dependencies": {},
   "development": {},
   "license": "MIT",
   "scripts": [
-    "src/EventEmitter.js"
+    "src/Stream.js"
   ]
 }

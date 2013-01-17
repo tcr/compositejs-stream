@@ -1,16 +1,16 @@
-# composite-eventemitter
+# composite-stream
 
-API compatible port of Node.js' EventEmitter to the browser via Component.
+API compatible port of Node.js' Stream to the browser via Component.
 
 ## Installation
 
-**Via `component`:** `$ component install tcr/composite-eventemitter`
+**Via `component`:** `$ component install tcr/composite-stream`
 
-**Standalone:** Download `lib/EventEmitter.js` and look for the global `EventEmitter` class.
+**Standalone:** Download `lib/Stream.js` and look for the global `Stream` class.
 
 ## API
 
-    var EventEmitter = require('EventEmitter');
+    var Stream = require('Stream');
 
 See [http://nodejs.org/api/events.html](http://nodejs.org/api/events.html).
 
