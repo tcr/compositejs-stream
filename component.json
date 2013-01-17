@@ -1,6 +1,6 @@
 {
-  "name": "composite-stream",
-  "repo": "tcr/composite-stream",
+  "name": "Stream",
+  "repo": "compositejs/stream",
   "description": "API compatible port of Node.js' Stream.",
   "version": "0.0.1",
   "keywords": [
@@ -13,7 +13,7 @@
     "stream"
   ],
   "dependencies": {
-    "tcr/composite-eventemitter": "*"
+    "compositejs/eventemitter": "*"
   },
   "development": {},
   "license": "MIT",
