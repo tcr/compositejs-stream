@@ -3,8 +3,18 @@
   "repo": "tcr/composite-stream",
   "description": "API compatible port of Node.js' Stream.",
   "version": "0.0.1",
-  "keywords": ["event", "emitter", "eventemitter", "node", "composite", "component", "stream"],
-  "dependencies": {},
+  "keywords": [
+    "event",
+    "emitter",
+    "eventemitter",
+    "node",
+    "composite",
+    "component",
+    "stream"
+  ],
+  "dependencies": {
+    "tcr/composite-eventemitter": "*"
+  },
   "development": {},
   "license": "MIT",
   "scripts": [
