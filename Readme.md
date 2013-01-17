@@ -1,10 +1,10 @@
-# composite-stream
+# compositejs/stream
 
 API compatible port of Node.js' Stream to the browser via Component.
 
 ## Installation
 
-**Via `component`:** `$ component install tcr/composite-stream`
+**Via `component`:** `$ component install compositejs/stream`
 
 **Standalone:** Download `lib/Stream.js` and look for the global `Stream` class.
 
@@ -12,7 +12,7 @@ API compatible port of Node.js' Stream to the browser via Component.
 
     var Stream = require('Stream');
 
-See [http://nodejs.org/api/events.html](http://nodejs.org/api/events.html).
+See [http://nodejs.org/api/stream.html](http://nodejs.org/api/stream.html).
 
 ## License
 
